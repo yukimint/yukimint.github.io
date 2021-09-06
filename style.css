@@ -506,9 +506,10 @@ header h1 {
 }
 
 div {
-    background: url(img/top_2.jpg)no-repeat center / cover;
+    background: url(img/AdobeStock_177427707.png);
+    background-size: cover;
     height: 675px;
-    padding-top: 75px;
+    padding-top: 80px;
   }
   
 div h1{
@@ -523,4 +524,4 @@ div p {
   padding-top: 15px;
   padding-left: 15px;
 }
-   
+/* no-repeat center/ cover */
