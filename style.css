@@ -1,0 +1,12 @@
+div {
+  background: url(img/top.png)no-repeat center / cover;
+  height: 675px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: normal;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #ddd;
+  
+  }
