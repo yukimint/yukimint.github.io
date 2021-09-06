@@ -1,12 +1,17 @@
 div {
-  background: url(img/top_1.png)no-repeat center / cover;
+  background: url(img/top_2.jpg)no-repeat center / cover;
   height: 675px;
   }
   
-  h1 {
+  h1{
     font-size: 24px;
     font-weight: normal;
+    padding-top: 10px;
     padding-bottom: 8px;
     border-bottom: 1px solid #ddd;
-  
+    padding-left: 15px;
+  }
+
+  p {
+    padding-left: 15px;
   }
