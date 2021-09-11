@@ -490,43 +490,54 @@ template {
 /* リセットCSSここまで */
 
 header {
-    position: fixed;
-    width: 100%;
-    height: 90px;
-    padding-right: 15px;
-    box-sizing: border-box;
-    background-color: #FFFFFF;
-}
+  max-width: 100%;
+  padding: 30px;
+ }
 
+  
 header h1 {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: normal; 
-    padding-top: 30px;
-    padding-left: 15px;
+    /* padding-top: 40px; */
+    /* padding-left: 15px; */
+    /* background-color: turquoise; */
     /* font-family: 'Alegreya Sans SC', sans-serif; */
     /* font-family: 'IM Fell English SC', serif; */
     /* font-family: 'IM Fell English SC', serif; */
    
 }
+header .gnav {
+  float: right;
+}
 
 header ul {
-  display: flex;
-  justify-content: flex-end;
-  
+  /* display: flex;
+  justify-content: flex-end; */
   list-style: none;
-  
 }
+
 
 header li + li {
   margin-left: 20px;
  
 }
 
-.key-visual {
-    background: url(img/AdobeStock_177427707.png) no-repeat center / cover ;
-    /* background-size: cover; */
-    height: 850px;
-    padding-top: 90px;
+header li {
+  display: inline-block;
+  /* background-color: turquoise;
+  border-radius: 20px;
+  padding: 5px 20px; */ 
+}
+
+.main {
+  background: url(img/AdobeStock_177427707.png) no-repeat center / cover;
+  height: 850px;
+  
+}
+
+.inner {
+  width: 1000px;
+  margin: 0 auto;
   }
   
 .key-visual h1{
