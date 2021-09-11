@@ -491,47 +491,35 @@ template {
 
 header {
   max-width: 100%;
-  padding: 45px;
-  /* margin-bottom: 15px; */
+  padding: 45px 0;
  }
-
-  
+ 
 header h1 {
     float: left;
     font-size: 20px;
     font-weight: normal; 
-    /* font-family: 'Alegreya Sans SC', sans-serif; */
-    /* font-family: 'IM Fell English SC', serif; */
-    /* font-family: 'IM Fell English SC', serif; */
-   
 }
+
 header .gnav {
   float: right;
 }
 
 header ul {
-  /* display: flex;
-  justify-content: flex-end; */
   list-style: none;
 }
 
 
 header li + li {
   margin-left: 20px;
- 
 }
 
 header li {
   display: inline-block;
-  /* background-color: turquoise;
-  border-radius: 20px;
-  padding: 5px 20px; */ 
 }
 
-.main {
+.top-wrapper {
   background: url(img/AdobeStock_177427707.png) no-repeat center / cover;
-  height: 850px;
-  
+  height: 850px; 
 }
 
 .inner {
@@ -545,11 +533,8 @@ header li {
     padding-top: 20px;
     padding-bottom: 8px;
     border-bottom: 1px solid #ddd;
-    padding-left: 15px;
   }
 
 .key-visual p {
   padding-top: 15px;
-  padding-left: 15px;
 }
-/* no-repeat center/ cover */
