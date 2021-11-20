@@ -505,6 +505,7 @@ header .gnav {
 }
 
 header ul {
+  font-size: 15px;
   list-style: none;
 }
 
