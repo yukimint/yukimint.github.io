@@ -490,8 +490,8 @@ template {
 /* リセットCSSここまで */
 
 header {
-  max-width: 100%;
-  padding: 45px 0;
+  height: 60px;
+  padding: 20px 10px 0;
  }
  
 header h1 {
@@ -526,15 +526,17 @@ header li {
   width: 1000px;
   margin: 0 auto;
   }
-  
+.key-visual {
+  padding-top: 30px;
+  text-align: right;
+   }
 .key-visual h1{
-    font-size: 24px;
+    font-size: 20px;
     font-weight: normal;
-    padding-top: 20px;
+   
     padding-bottom: 8px;
     border-bottom: 1px solid #ddd;
   }
-
 .key-visual p {
   padding-top: 15px;
 }
