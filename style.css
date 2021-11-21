@@ -512,7 +512,6 @@ header ul {
 }
 header li {
   display: inline-block;
-  /* background-color: rgb(144, 235, 204); */
   font-size: 14px;
 }
 header li + li {
@@ -532,4 +531,10 @@ header li + li {
   }
 .key-visual p {
   padding-top: 10px;
+}
+footer {
+  text-align: center;
+  height: 30px;
+  padding: 5px 30px;
+  background-color: rgb(250, 252, 252);
 }
