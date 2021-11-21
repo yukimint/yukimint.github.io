@@ -488,13 +488,15 @@ template {
   display: none;
 }
 /* リセットCSSここまで */
+
+
 body {
   font-family: Verdana, "ヒラギノ丸ゴ ProN", "Meiryo", "Hiragino Kaku Gothic Pro", "Osaka", "MS P Gothic", Arial, Helvetica, sans-serif;
 }
-
 header {
   height: 60px;
   padding: 20px 30px 15px;
+  background-color: rgb(250, 252, 252);
  }
  
 header h1 {
@@ -502,44 +504,29 @@ header h1 {
     font-size: 20px;
     font-weight: normal; 
 }
-
 header .gnav {
   float: right;
 }
-
-header ul {
-  
-  list-style: none;
- 
+header ul {  
+  list-style: none; 
 }
 header li {
   display: inline-block;
   /* background-color: rgb(144, 235, 204); */
   font-size: 14px;
 }
-
-
 header li + li {
   margin-left: 20px;
 }
-
-
-/* .top-wrapper {
-} */
-
-/* .inner {
-  padding: 30px;
-  } */
 .key-visual {
   background: url(img/AdobeStock_177427707.png) no-repeat center / cover;
-  height: 850px; 
+  height: 600px; 
   padding: 30px;
   text-align: right;
    }
 .key-visual h1{
     font-size: 18px;
     font-weight: normal;
-   
     padding-bottom: 8px;
     border-bottom: 1px solid #ddd;
   }
