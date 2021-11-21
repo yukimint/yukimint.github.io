@@ -488,6 +488,9 @@ template {
   display: none;
 }
 /* リセットCSSここまで */
+body {
+  font-family: Verdana, "ヒラギノ丸ゴ ProN", "Meiryo", "Hiragino Kaku Gothic Pro", "Osaka", "MS P Gothic", Arial, Helvetica, sans-serif;
+}
 
 header {
   height: 60px;
